@@ -8,8 +8,8 @@
           </block>
         </value>
         <next>
-          <block type="oled_linerect" id="9">
-            <field name="OBJECT">LINE</field>
+          <block type="oled_drawtext" id="148">
+            <field name="TEXT">hey marshmallow</field>
             <next>
               <block type="movement_stop" id="119"></block>
             </next>
