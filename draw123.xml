@@ -13,7 +13,7 @@
               <block type="oled_setcursor" id="5" inline="true">
                 <value name="STARTX">
                   <block type="math_number" id="6">
-                    <field name="NUM">30</field>
+                    <field name="NUM">20</field>
                   </block>
                 </value>
                 <value name="STARTY">
@@ -23,7 +23,7 @@
                 </value>
                 <next>
                   <block type="oled_drawtext" id="8">
-                    <field name="TEXT">shayan is idiot</field>
+                    <field name="TEXT">VARCHAS  IS MARSHMALLOW</field>
                     <next>
                       <block type="movement_stop" id="9"></block>
                     </next>
