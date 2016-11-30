@@ -9,7 +9,7 @@
         </value>
         <next>
           <block type="oled_linerect" id="9">
-            <field name="OBJECT">RECT</field>
+            <field name="OBJECT">LINE</field>
             <next>
               <block type="movement_stop" id="119"></block>
             </next>
