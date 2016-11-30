@@ -8,10 +8,28 @@
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="148">
-            <field name="TEXT">hey marshmallow</field>
+          <block type="oled_cleardisplay" id="203">
             <next>
-              <block type="movement_stop" id="119"></block>
+              <block type="oled_setcursor" id="158" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="165">
+                    <field name="NUM">50</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="172">
+                    <field name="NUM">50</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_drawtext" id="148">
+                    <field name="TEXT">hey marshmallow</field>
+                    <next>
+                      <block type="movement_stop" id="119"></block>
+                    </next>
+                  </block>
+                </next>
+              </block>
             </next>
           </block>
         </next>
