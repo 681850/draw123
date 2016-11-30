@@ -10,24 +10,10 @@
         <next>
           <block type="oled_cleardisplay" id="4">
             <next>
-              <block type="oled_setcursor" id="5" inline="true">
-                <value name="STARTX">
-                  <block type="math_number" id="6">
-                    <field name="NUM">10</field>
-                  </block>
-                </value>
-                <value name="STARTY">
-                  <block type="math_number" id="7">
-                    <field name="NUM">50</field>
-                  </block>
-                </value>
+              <block type="oled_drawtext" id="8">
+                <field name="TEXT">VARCHAS  IS MARSHMALLOW</field>
                 <next>
-                  <block type="oled_drawtext" id="8">
-                    <field name="TEXT">VARCHAS  IS MARSHMALLOW</field>
-                    <next>
-                      <block type="movement_stop" id="9"></block>
-                    </next>
-                  </block>
+                  <block type="movement_stop" id="9"></block>
                 </next>
               </block>
             </next>
